@@ -1,0 +1,37 @@
+<DOCTYPE <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="main.js"></script>
+        <link rel="stylesheet" type="text/css" media="screen" href="css/validation-form.css" />
+    </head>
+    <body>
+        <div>
+            <h1>fill</h1>
+        </div>
+        <div>
+            <form onsubmit="return" validate_form()" id="first_form">
+                <p>first name</p>
+                <input required type="text">
+                <p>middle name (optional)</p>
+                <input  type="text">
+                <p>last name</p>
+                <input required type="text">
+                <p>month</p>
+                <input required type="month">
+                <p>time</p>
+                <input required type="time">
+                <p>phone number</p>
+                <input required type="text" pattern="^([0-9]{9}|[0-9]{11})$" id="number" oninvalid="alert('phone number must be between 9 or 11 digits')"><br>
+                <button type="submit" class="btn">Submit</button>    
+            </form>
+        </div>
+    </body>    
+<script>
+   
+</script>
+    </body>
+    </html>

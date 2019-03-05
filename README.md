@@ -18,6 +18,6 @@ some atributes in HTML that made the restrictions possible are
 4. max: This attribute of html that makes sure that the field on the validation form is within a range, meaning the input is within a range. The max means the maximum that has been set that the input cannot go above.
 5. type: This is an attribute that tells you what type of data is required for that field 
 ### Examples of different input types and their uses
-* '<addr>' <input type="text"> (the field requires text as input)
-* '<addr>' <input type="month"> (the field will be in a date/month format which requires you to input a date/month)
-* '<addr>' <input type="time"> (the field will be in a time format requiring you to input data in time format)
+* ```<input type="text"> (the field requires text as input)
+* ```<input type="month"> (the field will be in a date/month format which requires you to input a date/month)
+* ```<input type="time"> (the field will be in a time format requiring you to input data in time format)
